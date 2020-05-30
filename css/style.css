@@ -2,6 +2,13 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.container-wrapper {}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
 .alert-container {
 }
 
@@ -26,13 +33,29 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .quotes-container {
 }
 
 .features-container {
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
 }
 
 /* Block dividers */
@@ -48,8 +71,49 @@ body {
     background-color: #f05f40;
 }
 
+.block-divider--white {
+    background-color: white;
+}
+
 .block-divider--short {
     width: 35px;
+}
+
+/* Content containers */
+
+.content-container {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
 }
 
 /* Jumbotron */
@@ -96,4 +160,25 @@ body {
     background-color: #df4929;
     border-color: #df4929;
     color: white;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
